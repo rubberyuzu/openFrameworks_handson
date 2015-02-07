@@ -18,5 +18,11 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+    
+    double x1, y1, xx1, yy1;
+    double x2, y2, xx2, yy2;
+    // x, y; position
+    // xx, yy; speed
 		
+    int bg_color; // 0-255
 };
